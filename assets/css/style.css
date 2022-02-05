@@ -476,6 +476,9 @@ section {
 
 }
 
+
+
+
 .img-fluid{
   max-width: 100%;
   height: auto;
@@ -2074,15 +2077,15 @@ color: white;
   font-weight: normal;
   font-size: 67px;
   line-height: 74px;    
-  margin-left: 2%;
+ 
 
 }
 .footer .footer-top .footer-info .logo img {
   max-height: 40px;
-  margin-right: 6px;
+ 
 }
 .footer .footer-top .footer-info .logo span {
-  
+
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
