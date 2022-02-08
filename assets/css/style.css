@@ -445,6 +445,14 @@ section {
   line-height: 74px;    
 }
 
+.hero-data-small{
+  overflow: hidden;
+  background: -webkit-linear-gradient(right,#AD00FF, #FF0065);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  line-height: 74px;    
+}
 
 
 .hero .btn-get-started {
@@ -1588,22 +1596,24 @@ color: white;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .entry .entry-img {
-  max-height: 440px;
+  /* max-height: 340px; */
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
 .blog .entry .entry-title {
+  text-align: justify ;
   font-size: 28px;
   font-weight: bold;
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 50px 0 20px 0;
+  color: rgb(175, 175, 175);
 }
 .blog .entry .entry-title a {
-  color: #012970;
+  color: #d4d4d4;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
-  color: #4154f1;
+  color: #a4aeff;
 }
 .blog .entry .entry-meta {
   margin-bottom: 15px;
