@@ -488,6 +488,7 @@ section {
 
 
 .img-fluid{
+  padding-top: 30px;
   max-width: 100%;
   height: auto;
 }
@@ -609,7 +610,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 0px 0 60px;
+  padding: 0px 0 20px;
 }
 .counts .count-box {
   display: flex;
