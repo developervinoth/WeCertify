@@ -58,6 +58,10 @@ section {
   text-align: center;
   padding-bottom: 40px;
 }
+.section-header-blog {
+  text-align: center;
+  padding-bottom: 40px;
+}
 .section-header h2 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -66,16 +70,40 @@ section {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.section-header-blog h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #a5a5a5;
+  color: #cacaca;
 }
+
+.section-header-blog p {
+  /* margin: 10px 0 0 0; */
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   .section-header p {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .section-header-blog p {
     font-size: 28px;
     line-height: 32px;
   }
@@ -489,7 +517,14 @@ section {
 
 
 .img-fluid{
+  margin-top: 50px;
   max-width: 100%;
+  height: auto;
+}
+
+.img-fluid-blog{
+
+  max-width: 80%;
   height: auto;
 }
 @media (min-width: 1024px) {
@@ -644,7 +679,8 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features .feature-box {
-  padding: 24px 20px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
   transition: 0.3s;
   height: 100%;
 }
@@ -1588,6 +1624,21 @@ color: white;
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
+.week-content{
+  margin-top: 30px;
+ color: white;
+
+}
+
+.week-content li{
+  margin-top: 20px;
+}
+.week-content ul{
+  margin-top: 20px;
+}
+.week-content h3{
+  margin-top: 20px;
+}
 .blog {
   padding: 40px 0 20px 0;
 }
@@ -1603,7 +1654,16 @@ color: white;
 }
 .blog .entry .entry-title {
   text-align: justify ;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0;
+  margin: 50px 0 20px 0;
+  color: rgb(175, 175, 175);
+}
+.blog .entry .entry-title-blog {
+  text-align: justify ;
+  line-height: 32px;
+  font-size: 18px;
   font-weight: bold;
   padding: 0;
   margin: 50px 0 20px 0;
