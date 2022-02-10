@@ -41,6 +41,47 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
 
+<style media="screen">
+.ball {
+
+
+          animation: bounce 2s;
+          animation-direction: alternate;
+          animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+          animation-iteration-count: infinite;
+      }
+
+      @keyframes bounce {
+          from {
+              transform: translate3d(0, 0, 0);
+          }
+          to {
+              transform: translate3d(0, 50px, 0);
+          }
+      }
+      /* Prefix Support */
+
+      ball {
+          -webkit-animation-name: bounce;
+          -webkit-animation-duration: 5s;
+          -webkit-animation-direction: alternate;
+          -webkit-animation-timing-function: cubic-bezier(
+          .5, 0.05, 1, .5);
+          -webkit-animation-iteration-count: infinite;
+      }
+
+      @-webkit-keyframes bounce {
+          from {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+          }
+          to {
+              -webkit-transform: translate3d(0, 50px, 0);
+              transform: translate3d(0, 50px, 0);
+          }
+      }
+</style>
+
 </head>
 
 <body>
@@ -88,7 +129,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <div class="col-lg-6 hero-img ball" data-aos="zoom-out" data-aos-delay="200">
+
           <img src="assets/img/hero-img.png" class="img-fluid" alt="">
         </div>
       </div>
@@ -101,9 +143,9 @@
         <!-- ======= Counts Section ======= -->
         <section id="counts" class="counts">
           <div class="container" data-aos="fade-up">
-    
+
             <div class="row gy-4">
-    
+
               <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                   <i class="bi bi-emoji-smile"></i>
@@ -113,7 +155,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                   <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
@@ -123,7 +165,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                   <i class="bi bi-headset" style="color: #15be56;"></i>
@@ -133,7 +175,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-lg-3 col-md-6">
                 <div class="count-box">
                   <i class="bi bi-people" style="color: #bb0852;"></i>
@@ -143,9 +185,9 @@
                   </div>
                 </div>
               </div>
-    
+
             </div>
-    
+
           </div>
         </section><!-- End Counts Section -->
     <!-- ======= About Section ======= -->
@@ -159,7 +201,7 @@
               <!-- <h3>Who We Are</h3> -->
               <h2>Who <span class="hero-data-small">We</span> Are? </h2>
               <p>
-                We are a leading firm in Digital Skill Training, by being part of technologies 
+                We are a leading firm in Digital Skill Training, by being part of technologies
                 that are transforming the world. Our belief is to make you industry-ready by giving
                 out a tailor-made integrated and blended learning approach.
               </p>
@@ -180,7 +222,7 @@
       </div>
 
     </section><!-- End About Section -->
-<!-- 
+<!--
     ======= Values Section =======  -->
     <!-- <section id="values" class="values">
 
@@ -264,7 +306,7 @@
                   <h3>5+ in-demand skills</h3>
                 </div>
               </div>
-<!-- 
+<!--
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
@@ -481,7 +523,7 @@
               <h3>Business Communication</h3>
               <p>It is crucial to communicate effectively in negotiations to ensure you achieve your goals.
                 We will help you foster a good working relationship
-                 between you and your peers, which in turn improves morale and efficiency. Interactive sessions, 
+                 between you and your peers, which in turn improves morale and efficiency. Interactive sessions,
                  mock interviews, resume building are just a few of the things included.</p>
               <a href="business-communication.html"  target = '_blank' class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
@@ -491,7 +533,7 @@
             <div class="service-box purple">
               <i class="icon"><img class = "service-icon" src= "assets/img/excel.png" alt=""></i>
               <h3>Microsoft Excel</h3>
-              <p>Custom-made for beginners and covers in-depth lessons for Excel learning and how to 
+              <p>Custom-made for beginners and covers in-depth lessons for Excel learning and how to
                 use various Excel formulas, tables, pivots, and charts. visual representation of data from
                  a worksheet that can bring more depth to the data than just looking at numbers.</p>
               <a href="Excel.html" target = '_blank' class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
@@ -1331,7 +1373,7 @@
       <div class="copyright">
         &copy; Copyright <strong><span>WeCertify</span></strong>. All Rights Reserved
       </div>
-     
+
     </div>
   </footer><!-- End Footer -->
 
