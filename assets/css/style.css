@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 67px;
-  line-height: 74px;    
+  line-height: 74px;
   margin-left: 2%;
 
 }
@@ -220,7 +220,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
- 
+
   margin: 30px;
 }
 
@@ -228,7 +228,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -336,7 +336,7 @@ section {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #EB0187;
@@ -474,7 +474,7 @@ section {
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
-  line-height: 74px;    
+  line-height: 74px;
 }
 
 .hero-data-small{
@@ -483,12 +483,12 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: normal;
-  line-height: 74px;    
+  line-height: 74px;
 }
 
 
 .hero .btn-get-started {
-  
+
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
@@ -656,7 +656,7 @@ section {
   padding: 30px;
   width: 100%;
   background: transparent;
-  
+
 }
 .counts .count-box i {
   font-size: 42px;
@@ -743,7 +743,7 @@ section {
 
 
 .features .feture-tabs .nav-link.active {
-  
+
   color: #bebebe;
   border-bottom: 3px solid #4154f1;
 }
@@ -810,11 +810,11 @@ section {
 }
 
 .service-icon{
-  width: 20%;
+  width: 30%;
 }
 
 .services .service-box .icon {
-  
+
   font-size: 36px;
   padding: 40px 20px;
   border-radius: 4px;
@@ -1056,7 +1056,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  
+
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -2150,13 +2150,13 @@ color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 67px;
-  line-height: 74px;    
- 
+  line-height: 74px;
+
 
 }
 .footer .footer-top .footer-info .logo img {
   max-height: 40px;
- 
+
 }
 .footer .footer-top .footer-info .logo span {
 
