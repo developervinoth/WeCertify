@@ -82,7 +82,7 @@
       }
 </style>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 
 
 </head>
@@ -1313,8 +1313,17 @@
             <p>Subscribe to our newsletter to get new updates and blogs</p>
           </div>
           <div class="col-lg-6">
-            <form action="https://script.google.com/macros/s/AKfycbzUsyzIC1SXc0Hpgiy8iZgvmf7NARSzgRPyr-SrZKJmQwnPQ9p4Vy2OqKjGA-L7bOCD/exec" method="post">
+            <form class="gform pure-form pure-form-stacked" method="POST"
+            action="https://script.google.com/macros/s/AKfycbzUsyzIC1SXc0Hpgiy8iZgvmf7NARSzgRPyr-SrZKJmQwnPQ9p4Vy2OqKjGA-L7bOCD/exec">
               <input type="email" name="email"><input type="submit" value="Subscribe">
+
+
+              <div class="thankyou_message" style="display:none;">
+                <p><em>Thanks</em> for contacting us!
+                  We will get back to you soon!</p>
+              </div>
+
+
             </form>
           </div>
         </div>
@@ -1401,6 +1410,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
 
 </body>
 
