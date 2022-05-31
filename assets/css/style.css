@@ -16,6 +16,22 @@
   color: #F0007D;
 }
 
+.LogoT{
+  font-size: 72px;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Berkshire Swash', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 67px;
+  line-height: 74px;
+margin: 0;
+padding: 0;
+
+}
+
+
 
 .logo{
   font-size: 72px;
@@ -30,6 +46,8 @@
   margin-left: 2%;
 
 }
+
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -224,6 +242,7 @@ section {
   color: #012970;
 
   margin: 30px;
+  margin-right: 0px;
 }
 
 /*--------------------------------------------------------------
